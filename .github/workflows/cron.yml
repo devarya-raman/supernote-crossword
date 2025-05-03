@@ -1,7 +1,7 @@
 name: cron
 on:
   push:
-    branches: [ main ]
+    branches: [ nyt-cookie-py ]
   schedule:
   - cron: '1 * * * *'
 jobs:
