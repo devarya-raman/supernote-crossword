@@ -1,7 +1,24 @@
-# supernote-crossword
+# dump_nyt_cookies.py  
+
+Dumps the latest nytimes.com cookies from only logged-in browsers across all supported installed browsers in `document.cookie` format - **including HttpOnly!**
+
+Supports Chrome, Brave, Edge, Firefox, and Opera.
+
+1. Run file dump_nyt_cookies.py
+2. Profit!!
+
+## Future Plans
+
+1. Integrate into workflow job to auto refresh cookie (likely net add of +1 Github secrets to configure)
+
+## - - - - - - - - - - - - -
+
+## supernote-crossword
+
 Downloads tomorrow's crosswords into a designated Dropbox folder.
 
-## Instructions:
+## Instructions
+
 1. Fork
 2. Setup secrets:
     1. Set DROPBOX_APP_KEY, DROPBOX_APP_SECRET, and DROPBOX_REFRESH_TOKEN based on the [instructions](https://www.nathanbuchar.com/how-to-automatically-upload-daily-nyt-crossword-dropbox-2023#step-2%3A-generate-a-dropbox-refresh-token).
@@ -9,8 +26,10 @@ Downloads tomorrow's crosswords into a designated Dropbox folder.
     3. Set DROPBOX_NYTC_PATH and DROPBOX_WSJC_PATH based on your own preferences.
 3. Profit!
 
-## Credit:
-Adapted from https://nathanbuchar.com/automatically-uploading-the-nyt-crossword-supernote/
+## Credit
 
-## Status:
+Adapted from <https://nathanbuchar.com/automatically-uploading-the-nyt-crossword-supernote/>
+
+## Status
+
 [![cron](https://github.com/arichiv/supernote-crossword/actions/workflows/cron.yml/badge.svg)](https://github.com/arichiv/supernote-crossword/actions/workflows/cron.yml)

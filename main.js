@@ -166,5 +166,4 @@ async function main() {
     date.setDate(date.getDate() - 1);
   }
 }
-
 main().then(() => process.exit(0));
